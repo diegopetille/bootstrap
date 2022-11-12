@@ -1,0 +1,263 @@
+/*corpo da pagina*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Montserrat-Regular.otf', monospace,"Arial";
+}
+/*sessão header da pg*/
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+/*sessão nav (navegação) da pg*/
+nav{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    
+}
+nav li {
+    /*menus*/
+    margin-block: 40px;
+    
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(172, 87, 87);
+    text-decoration: underline;
+}
+/*lista da pagina*/
+ul{
+    list-style: none;
+}
+/*logotipo*/
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+.logo{
+    width: 100%;
+}
+img{
+    width: 340px;
+    left: 90px;
+    margin-top: -10px;
+}
+/*Banner*/
+.banner{
+    width: 76%;
+    height: 100%;
+    margin-left: 24%;
+    margin-top: 0.5px;
+    
+    
+}
+
+/*Estilização do logotipo*/
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+/* Solid border */
+div.solid {
+    border-top: 1px solid rgb(168, 168, 168);
+    margin-top: -2.5px;
+  }
+
+div.solid2{
+    border-top: 1px solid rgb(168, 168, 168);
+    margin-top: -3.5px;
+    
+}  
+
+div.solid3 {
+    border-top: 1px solid #f1eed9;
+    margin-top: -2.5px;
+  }
+
+div.solid4{
+    border-top: 1px solid rgb(168, 168, 168);
+    
+}   
+
+
+
+div.insc{
+    margin-left: 1195px;
+    margin-bottom: px;
+    position: absolute;
+    top: 88px;
+    
+}
+
+div.insc a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div.insc a:hover{
+    color: rgb(172, 87, 87);
+    text-decoration: underline;
+}
+
+/*Copyright*/
+.copyright{
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 40px 0;
+}
+
+.vl {
+    margin-left: 20.2em;
+    border-left: 1px solid rgb(168, 168, 168);
+    height: 570px;
+  }
+
+.ctt {
+    position: absolute;
+    /*width: 22.5%;*/
+    right: 0px;
+    left: 323px;
+    bottom: 20px;
+    top: 120px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+}
+
+.head{
+    padding: 2em 0 0 4em;
+    margin: 0 0 36px 0;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16.5px;
+    text-decoration: none;
+}
+
+.info img{
+    width: 76%;
+    height: 100%;
+    margin-left: 24%;
+    margin-top: 0.5px;
+}
+
+.info{
+    width: 88%;
+    height: 80%;
+    margin-left: 4em;
+    margin-top: 0.5px;  
+}
+
+.blococtt{
+position: relative;
+padding: 20px 0 0 0;
+width: 878px;
+height: 400px;
+left: 66px;
+
+background: #EEEAD0;
+border-radius: 40px;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icon1{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 64px;
+top: 50px;
+
+}
+
+.icon2{
+    position: relative;
+width: 80px;
+height: 80px;
+top: 152px;
+left: 64px;
+}
+
+.icon3{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 64px;
+top: 292px;
+
+}
+
+.tel{
+    position: absolute;
+width: 749px;
+height: 38px;
+left: 218px;
+top: 26px;
+
+font-family: 'Montserrat-Regular.otf', monospace,"Arial";
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+/*text-align: center;*/
+letter-spacing: 0.395em;
+
+color: #994E43;
+}
+
+.insta{
+    position: absolute;
+width: 749px;
+height: 38px;
+left: 218px;
+top: 145px;
+
+font-family: 'Montserrat-Regular.otf', monospace,"Arial";
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+/*text-align: center;*/
+letter-spacing: 0.395em;
+
+color: #994E43;
+}
+
+.emaile{
+    position: absolute;
+width: 749px;
+height: 38px;
+left: 218px;
+top: 264px;
+
+font-family: 'Montserrat-Regular.otf', monospace,"Arial";
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 49px;
+/*text-align: center;*/
+letter-spacing: 0.18em;
+
+color: #994E43;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="contato2.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <title> CONTATO </title>
+    <script>
+        alert("Preencha com informações sobre seu contato para o contactarmos")
+        data = new Date;
+        dia = new Array("Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado");
+        mes = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
+    </script>
+</head>
+
+<body>
+    <header>
+        <a id="top"></a>
+        <div class="insc">
+            <a href="sobconst.html">Se inscrever</a></li>
+        </div>
+        <div>
+            <h1 id="navbar"><img src="roufflogo1.png" alt="logo"></h1>
+            <div class="solid"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
+                    <li><a href="adocoes.html">Adoções</a></li>
+                    <li><a href="contato.html">contato</a></li>
+
+                </ul>
+            </nav>
+
+
+            <div class="vl"></div>
+
+            
+            <div class="mainn" style="text-align: center; height: 20px; ">
+                <ul class="ctt-titulo"">
+                    <li class="ctt-item">CONTATO</li>
+                </ul>
+                <p style="text-align: center; margin-right: 0px ;">
+                    <script type="text/javascript">
+                        alert(dia[data.getDay()]);
+
+                        document.write(dia[data.getDay()] + ", " + data.getDate() + " de " +
+                            mes[data.getMonth()] + " de " + data.getFullYear())
+                    </script>
+                </p>
+            </div>
+
+
+            <div class="ctt">
+                <!---Formulário-->
+            
+
+                <form name="frmctt" method="get" action="mailto:diegopetillead@gmail.com" target="_blank">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <label for="nomesobrenome">* Nome e Sobrenome</label>
+                        <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+                        <!--Required diz que é obrigatório-->
+
+                        <br>
+
+                        <label for="email">* E-Mail</label>
+                        <input type="email" id="email" name="" class="input-padrao" required
+                            placeholder="exemplo@email.com">
+
+                        <br>
+
+                        <label for="telefone"> Telefone</label>
+                        <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(YY) YYYYY-YYYY">
+
+                        <br>
+
+                        <label for="mensagem">* Mensagem</label>
+                        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                        <!--Bolinhas para selecionar-->
+                        <br>
+                        <label for="contato">Como prefere nosso contato?
+                            <br>
+                            <input type="radio" value="radio-mail" name="Contato"> E-mail
+                            <input type="radio" value="radio-telefone" name="Contato"> Telefone
+                            <input type="radio" value="radio-whatsapp" name="Contato"> Whatsapp
+                        </label>
+
+                        <div class = "bootstrap">
+                            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                            <a class="whatsapp-link" href="https://wa.me/5511941151508" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+
+                        <!--Lista para selecionar-->
+                        <br>
+                        <label for="horario">Qual o motivo do seu contato?
+                            <select>
+                                <option>Selecione</option>
+                                <option>Dúvida</option>
+                                <option>Sugestões</option>
+                                <option>Elogios</option>
+                                <option>Reclamações</option>
+                            </select>
+                            <br>
+                    </fieldset>
+
+
+                    <label class="check" ><input type="checkbox" class="check">Gostaria de receber nossar novidades por
+                        e-mail?</label>
+                    <button type="button"> Enviar </button>
+            </div>
+            </form>
+
+        </div>
+
+
+        <div class="solid4"></div>
+        </div>
+    </header>
+    <!--Rodpé-->
+    <footer>
+        <img src="roufflogo1sfundo.png" alt="ROUFF">
+        <p class="copyright">&copy; Copyright ROUFF - 2022</p>
+    </footer>
+</body>

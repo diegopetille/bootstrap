@@ -1,0 +1,156 @@
+/*corpo da pagina*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Montserrat-Regular.otf', monospace,"Arial";
+}
+/*sessão header da pg*/
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+/*sessão nav (navegação) da pg*/
+nav{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    
+}
+nav li {
+    /*menus*/
+    margin-block: 40px;
+    
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(172, 87, 87);
+    text-decoration: underline;
+}
+/*lista da pagina*/
+ul{
+    list-style: none;
+}
+/*logotipo*/
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+.logo{
+    width: 100%;
+}
+img{
+    width: 340px;
+    left: 90px;
+    margin-top: -10px;
+}
+/*Banner*/
+.banner{
+    width: 76%;
+    height: 100%;
+    margin-left: 24%;
+    margin-top: 0.5px;
+    
+    
+}
+
+/*Estilização do logotipo*/
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+/* Solid border */
+div.solid {
+    border-top: 1px solid rgb(168, 168, 168);
+    margin-top: -2.5px;
+  }
+
+div.solid2{
+    border-top: 1px solid rgb(168, 168, 168);
+    margin-top: -3.5px;
+    
+}  
+
+div.solid3 {
+    border-top: 1px solid #f1eed9;
+    margin-top: -2.5px;
+  }
+
+div.solid4{
+    border-top: 1px solid rgb(168, 168, 168);
+    
+}   
+
+
+
+div.insc{
+    margin-left: 1195px;
+    margin-bottom: px;
+    position: absolute;
+    top: 88px;
+    
+}
+
+div.insc a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div.insc a:hover{
+    color: rgb(172, 87, 87);
+    text-decoration: underline;
+}
+
+/*Copyright*/
+.copyright{
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 40px 0;
+}
+
+.vl {
+    margin-left: 20.2em;
+    border-left: 1px solid rgb(168, 168, 168);
+    height: 570px;
+  }
+
+  .aviso{
+    position: absolute;
+    /*width: 22.5%;*/
+    right: 0px;
+    left: 290px;
+    bottom: 20px;
+    top: 250px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+  }
+
+.aviso p{
+    padding: 2em 0 0 4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16.5px;
+    text-decoration: none;
+}
